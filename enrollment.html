@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <link rel="stylesheet" href="abc.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="navbar">
+            <div class="logo"> 
+                <div class="logodiv">
+                    <a href="#" class="logo_img"><img src="images/logo2.png" alt="logo"></a>
+                    <a href="#" class="logo_text">
+                        <h2>ByteBuddy Academy</h2>
+                        <h5>Code, Create, Play, Repeat!</h5>
+                    </a>
+                </div>
+            </div>
+            <ul class="top-nav-bar">
+                <li><a href="courses.html" class="nav-item">Courses</a></li>
+                <li><a href="parents.html" class="nav-item">Parents</a></li>
+                <li><a href="Tutors.html" class="nav-item">Tutors</a></li>
+                <li><a href="Adminstrator.html" class="nav-item">Administrator</a></li>
+            </ul>
+
+            <form action="#" class="search_fr">
+                <input type="text" placeholder="Search..">
+            </form>   
+        </div>
+    </header>
+    
+    <div class="breadcrumb">
+		<a href="index.html">Home</a>
+		<span class="separator"> > </span>
+		<a href="parents.html">Parents</a>
+		<span class="separator"> > </span>
+		<a href="enrollment.html">Course Enrollment</a>
+	</div>
+	
+	<!-- Main -->
+    <main>
+        <h2>Course Enrollment Form</h2>
+        <hr> <br>
+
+
+        <article>
+            <div class="intro-box">
+                <h3>Embark on a new learning journey!</h3>
+                <p>Discover the magic of coding at ByteBuddy Academy, where young minds ignite their creativity. Our courses make learning fun and accessible, shaping future innovators. Join us on this exciting journey and unlock a world of possibilities. </p>
+                <p style="color: #00B499"> Start coding, start creating, and start shaping the future! 🚀🌟</p>
+            </div>
+        </article>
+        <br>
+
+        <div class="enrollment-form">
+        <div class="step1-box">
+        <div class="step1">
+            <h3>Step One: Choose Your Child</h3>
+            <hr><br>
+            <label for="childName">Student Name:</label>
+            <select id="childName" class="enrollment-select">
+                <option value="" disabled selected>-Select-</option>
+                <option value="Mohammed">Mohammed</option>
+                <option value="Nadia">Nadia</option>
+                <option value="Reem">Reem</option>
+                <option value="Abdulaziz">Abdulaziz</option>
+            </select>
+			</div>
+			</div>
+			<br>
+			
+        <div class="step2-box">
+    <div class="step2">
+        <h3>Step Two: Choose the Course</h3>
+        <hr><br>
+        <div class="filter-options">
+            Filter by:
+            <select id="coursePrerequisite" class="enrollment-select">
+                <option value="" disabled selected>-Prerequisite-</option>
+                <optgroup label="Web Development">
+                    <option value="HTML">HTML</option>
+                    <option value="CSS">CSS</option>
+                </optgroup>
+                <optgroup label="No Prerequisite">
+                    <option value="None">None</option>
+                </optgroup>
+            </select>
+            
+            <select id="courseTutor" class="enrollment-select">
+                <option value="" disabled selected>-Tutor-</option>
+                <optgroup label="Programming Tutors">
+                    <option value="Alice">Alice</option>
+                    <option value="Bob">Bob</option>
+                    <option value="Jack">Jack</option>
+                </optgroup>
+                <optgroup label="Web Design Tutors">
+                    <option value="Sarah">Sarah</option>
+                    <option value="Emma">Emma</option>
+                </optgroup>
+                <optgroup label="Other Tutors">
+                    <option value="John">John</option>
+                    <option value="Mia">Mia</option>
+                    <option value="William">William</option>
+                </optgroup>
+            </select>
+        </div>
+    </div>
+      
+		<br>
+		
+       <div class="course-choices">
+    <div class="course-choice">
+        <input type="checkbox" id="html" name="course_type" value="html">
+        <img src="images/html.jpg" alt="HTML Logo" width="50" height="50">
+        <label for="html">HTML</label>
+    </div>
+    <div class="course-choice">
+        <input type="checkbox" id="css" name="course_type" value="css">
+        <img src="images/css.jpg" alt="CSS Logo" width="50" height="50">
+        <label for="css">CSS</label>
+    </div>
+    <div class="course-choice">
+        <input type="checkbox" id="javascript" name="course_type" value="javascript">
+        <img src="images/javascript.jpg" alt="JavaScript Logo" width="50" height="50">
+        <label for="javascript">JavaScript</label>
+    </div>
+    <div class="course-choice">
+        <input type="checkbox" id="scratch" name="course_type" value="scratch">
+        <img src="images/scratch.jpg" alt="Scratch Logo" width="50" height="50">
+        <label for="scratch">Scratch</label>
+    </div>
+    <div class="course-choice">
+        <input type="checkbox" id="java" name="course_type" value="java">
+        <img src="images/java.jpg" alt="Java Logo" width="50" height="50">
+        <label for="java">Java</label>
+    </div>
+    <div class="course-choice">
+        <input type="checkbox" id="python" name="course_type" value="python">
+        <img src="images/python.jpg" alt="Python Logo" width="50" height="50">
+        <label for="python">Python</label>
+    </div>
+    <div class="course-choice">
+        <input type="checkbox" id="snap" name="course_type" value="snap">
+        <img src="images/snap.jpg" alt="Snap! Logo" width="50" height="50">
+        <label for="snap">Snap!</label>
+    </div>
+    <div class="course-choice">
+        <input type="checkbox" id="swift" name="course_type" value="swift">
+        <img src="images/swift.jpg" alt="Swift Logo" width="50" height="50">
+        <label for="swift">Swift</label>
+    </div>
+    <div class="button-enrollment">
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+	</div>
+</div>
+</div>
+</div>
+    </main>
+    
+<!-- Footer -->
+<footer>
+    <div id="footer">
+        <div class="footer-sections">
+            <div id="fot1">
+                <h3>About</h3>
+                <a href="">About ByteBuddy</a><br>
+                <a href="">Contact Us</a><br>
+                <a href="">FAQ</a>
+            </div>
+            <div id="fot2">
+                <h3>Support</h3>
+                <a href="">Terms of Use</a><br>
+                <a href="">Privacy Policy</a>
+            </div>
+        </div>
+        <div id="fot3">
+            <h3>Contact Us</h3>
+            <p>  
+                <a href=""><img src="images/whatsapp.png" alt="whatsapp"></a>
+                <a href=""><img src="images/twitter.png" alt="twitter"></a>
+                <a href=""><img src="images/instagram.png" alt="instagram"></a>
+                <br> © 2023 ByteBuddy Academy
+            </p>
+        </div>
+    </div>
+</footer>
+</body>
+</html> 
