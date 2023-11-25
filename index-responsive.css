@@ -41,7 +41,9 @@ header {
     -ms-flex-pack: justify;
     justify-content: space-between;
 }
-
+.dark-mode header {
+    background: #031c2f;
+}
 .top-nav-bar {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -352,7 +354,11 @@ footer {
         height: 50vh;
     }
 }
-
+@media only screen and (max-width: 1100px) {
+    .top-nav-bar {
+        gap: 15px;
+    }
+}
 @media only screen and (max-width: 1024px) {
     .logo {
         font-size: 1.3vw;
@@ -573,7 +579,7 @@ footer {
 
 @media only screen and (max-width: 600px) {
     .top-nav-bar {
-        gap: 15px;
+        gap: 5px;
     }
 
     .logo {
@@ -585,7 +591,8 @@ footer {
         width: 100%;
         padding: 0px;
         font-size: 4vw;
-        margin: 10px;
+        margin: 10px 0;
+        justify-content: space-between;
     }
 
     .search_fr {
@@ -654,5 +661,11 @@ footer {
         float: left;
         width: 100%;
         text-align: center;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .top-nav-bar li a {
+        font-size: 16px;
     }
 }
