@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html {
@@ -35,11 +35,11 @@ header {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
 }
 
 .top-nav-bar {
@@ -50,8 +50,8 @@ header {
     list-style: none;
     padding: 0;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 li a {
@@ -75,8 +75,8 @@ li a:hover {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .logo img {
@@ -143,21 +143,21 @@ main {
     gap: 50px;
     padding: 50px 0px;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 
 .course {
     width: 400px;
     padding: 10px;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     background-color: white;
     text-align: center;
     -webkit-box-shadow: 0 0 15px lightgray;
-            box-shadow: 0 0 15px lightgray;
+    box-shadow: 0 0 15px lightgray;
 }
 
 .course img {
@@ -193,11 +193,11 @@ main {
 
 .visionimg img {
     -o-object-fit: contain;
-       object-fit: contain;
+    object-fit: contain;
     width: 86%;
     height: 300px;
     -webkit-box-shadow: 0px 35px 77px -17px rgba(0, 0, 0, 0.44);
-            box-shadow: 0px 35px 77px -17px rgba(0, 0, 0, 0.44);
+    box-shadow: 0px 35px 77px -17px rgba(0, 0, 0, 0.44);
     background-color: white;
 }
 
@@ -231,21 +231,20 @@ main {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 .user-review {
-    max-width: 400px;
-    width: 100%;
+    width: 400px;
     padding: 20px 10px;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     text-align: left;
     background: #f8e4ef;
 }
@@ -261,8 +260,8 @@ main {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     gap: 15px;
 }
 
@@ -271,9 +270,9 @@ main {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 .student,
@@ -281,11 +280,11 @@ main {
 .Tutors-Courses {
     width: 18%;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     padding: 10px;
     background-color: #d3dbda;
     -webkit-box-shadow: 0 0 15px lightgray;
-            box-shadow: 0 0 15px lightgray;
+    box-shadow: 0 0 15px lightgray;
     border: 4em;
     margin: 0 10px;
     border: 0.1em solid black;
@@ -365,15 +364,18 @@ footer {
 
     .visiontext {
         width: 40%;
-        margin-left: 65px;
+        margin-left: 40px;
     }
 
+    .visiontext p {
+        font-size: 20px;
+    }
 }
 
 @media only screen and (max-width: 920px) {
     .navbar {
         -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
+        flex-wrap: wrap;
     }
 
     form.search_fr {
@@ -400,7 +402,7 @@ footer {
     }
 
     .user-review {
-        max-width: 340px;
+        width: 340px;
     }
 
     .users {
@@ -412,8 +414,8 @@ footer {
     .vision {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
     }
 
     .courses {
@@ -422,7 +424,7 @@ footer {
         width: 97%;
         margin: auto;
         -ms-flex-pack: distribute;
-            justify-content: space-around;
+        justify-content: space-around;
     }
 
     .users {
@@ -431,7 +433,7 @@ footer {
         width: 97%;
         margin: auto;
         -ms-flex-pack: distribute;
-            justify-content: space-around;
+        justify-content: space-around;
     }
 
     .user-review {
@@ -439,13 +441,13 @@ footer {
     }
 
     .course {
-        width: 48%px;
+        width: 48%;
     }
 
     .logodiv {
         -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
     }
 
     .logo {
@@ -481,8 +483,8 @@ footer {
 
     .top-nav-bar {
         -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
     }
 
     .search_fr {
@@ -515,7 +517,7 @@ footer {
         margin-top: 0px;
         height: 336px;
         -webkit-box-shadow: none;
-                box-shadow: none;
+        box-shadow: none;
     }
 
     .visiontext {
@@ -547,8 +549,8 @@ footer {
         text-align: center;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
     }
 
     .user-review p {
@@ -568,8 +570,6 @@ footer {
         text-align: center;
     }
 }
-
-
 
 @media only screen and (max-width: 600px) {
     .top-nav-bar {
@@ -603,7 +603,7 @@ footer {
         margin-top: 0px;
         height: 210px;
         -webkit-box-shadow: none;
-                box-shadow: none;
+        box-shadow: none;
     }
 
     .visiontext {
