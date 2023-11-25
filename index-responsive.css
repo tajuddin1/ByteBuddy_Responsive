@@ -101,7 +101,14 @@ h2 {
     float: left;
     color: inherit;
 }
-
+.search_fr {
+    text-align: center;
+    padding: 5px 0px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 10px;
+}
 .search_fr input {
     padding: 5px;
 }
@@ -354,7 +361,7 @@ footer {
         height: 50vh;
     }
 }
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1180px) {
     .top-nav-bar {
         gap: 15px;
     }
@@ -378,23 +385,27 @@ footer {
     }
 }
 
-@media only screen and (max-width: 920px) {
+@media only screen and (max-width: 940px) {
     .navbar {
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     }
 
-    form.search_fr {
+    .search_fr {
         width: 100%;
         text-align: center;
+        margin-left: 0;
         margin-bottom: 10px;
+        justify-content: space-around;
     }
 
-    form.search_fr INPUT {
+    .search_fr input {
         width: 90%;
         margin: auto;
     }
-
+    .search_fr form {
+        width: 80%;
+    }
     main {
         padding-top: 168px;
     }
@@ -505,7 +516,6 @@ footer {
 
     .search_fr input {
         padding: 1vw;
-        width: 36vw;
     }
 
     .vision {
@@ -599,6 +609,8 @@ footer {
         width: 100%;
         text-align: center;
         padding: 5px 0px;
+        display: flex;
+        justify-content: space-between;
     }
 
     .visionimg {
@@ -644,10 +656,6 @@ footer {
 
     .user-review p {
         text-align: center;
-    }
-
-    .user-review img {
-        width: 85%;
     }
 
     div#fot1,
